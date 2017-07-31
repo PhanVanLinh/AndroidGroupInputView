@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.toong.androidgroupinputview.MainActivity"
+    android:orientation="vertical"
+    android:padding="10dp"
+    >
+
+    <com.toong.androidgroupinputview.GroupInputView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:giv_title="First Name"
+        app:giv_inputHint="Input first name"
+        app:giv_rule="none_empty,email"
+        />
+
+    <com.toong.androidgroupinputview.GroupInputView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:giv_title="First Name"
+        app:giv_inputHint="Input first name"
+        app:giv_rule="none_empty,range(5:10)"
+        app:giv_inputType="number"
+        />
+
+
+    <com.toong.androidgroupinputview.GroupInputView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:giv_title="Email"
+        app:giv_inputHint="Input emao;l name"
+        app:giv_rule="none_empty,range(15:10)"
+        app:giv_inputType="number"
+        />
+
+
+
+</LinearLayout>

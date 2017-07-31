@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">AndroidGroupInputView</string>
+
+
+    <string name="msg_error_none_empty">Hãy nhập vào form này</string>
+
+</resources>
