@@ -2,6 +2,13 @@
     <string name="app_name">AndroidGroupInputView</string>
 
 
-    <string name="msg_error_none_empty">Hãy nhập vào form này</string>
+
+    <!-- Error Input -->
+    <string name="msg_error_none_empty">Hãy nhập đầy đủ thông tin</string>
+    <string name="msg_error_date">Ngày không hợp lệ</string>
+    <string name="msg_error_date_time">Ngày giờ không hợp lệ</string>
+    <string name="msg_error_email">Sai định dạng email</string>
+    <string name="msg_error_less_than_range">Vui lòng nhập nhiều hơn %d kí tự</string>
+    <string name="msg_error_greater_than_range">Vui lòng nhập ít hơn %d kí tự</string>
 
 </resources>

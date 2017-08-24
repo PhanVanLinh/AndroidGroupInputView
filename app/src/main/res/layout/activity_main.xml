@@ -10,6 +10,13 @@
     android:padding="10dp"
     >
 
+    <Button
+        android:id="@+id/button_test"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Test"
+        />
+
     <com.toong.androidgroupinputview.GroupInputView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -31,12 +38,31 @@
     <com.toong.androidgroupinputview.GroupInputView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        app:giv_title="Email"
+        app:giv_title="Number"
         app:giv_inputHint="Input emao;l name"
         app:giv_rule="none_empty,range(15:10)"
         app:giv_inputType="number"
         />
 
+    <com.toong.androidgroupinputview.GroupInputView
+        android:id="@+id/input_view_date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:giv_title="Date"
+        app:giv_inputHint="Input emao;l name"
+        app:giv_rule="none_empty"
+        app:giv_inputType="date"
+        />
+
+    <com.toong.androidgroupinputview.GroupInputView
+        android:id="@+id/input_view_date_time"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:giv_title="Date Time"
+        app:giv_inputHint="Input date time"
+        app:giv_rule="none_empty"
+        app:giv_inputType="date_time"
+        />
 
 
 </LinearLayout>

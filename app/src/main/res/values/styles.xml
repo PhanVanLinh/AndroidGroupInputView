@@ -9,12 +9,16 @@
     </style>
 
     <declare-styleable name="GroupInputView">
-        <attr format="string" name="giv_title"/>
-        <attr format="string" name="giv_inputHint"/>
-        <attr format="string" name="giv_inputText"/>
-        <attr format="string" name="giv_inputType"/>
-        <attr format="string" name="giv_rule"/>
-        <attr format="integer" name="giv_input_maxLength"/>
+        <attr name="giv_title" format="string"/>
+        <attr name="giv_inputHint" format="string"/>
+        <attr name="giv_inputText" format="string"/>
+        <attr name="giv_inputType" format="string"/>
+        <attr name="giv_imeOptions" format="string"/>
+        <attr name="giv_rule" format="string"/>
+        <attr name="giv_input_maxLength" format="integer"/>
+        <attr name="giv_input_enable" format="boolean"/>
+        <attr name="giv_input_lines" format="integer"/>
+        <attr name="giv_input_size" format="dimension"/>
     </declare-styleable>
 
 </resources>
