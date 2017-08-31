@@ -118,11 +118,10 @@ public class GroupInputView extends LinearLayout {
 
     private void configTextLine(int inputLines) {
         if (inputLines > 0) {
-            edtInput.setInputType(
-                    InputType.TYPE_TEXT_FLAG_CAP_SENTENCES | InputType.TYPE_TEXT_FLAG_MULTI_LINE);
+//            edtInput.setInputType(InputType.TYPE_TEXT_FLAG_IME_MULTI_LINE);
             edtInput.setGravity(Gravity.TOP);
             edtInput.setLines(inputLines);
-            edtInput.setMaxLines(inputLines);
+//            edtInput.setMaxLines(inputLines);
         }
     }
 
@@ -223,8 +222,6 @@ public class GroupInputView extends LinearLayout {
             mTextViewDateTimePicker.setMaxDate(maxDate);
         }
     }
-
-
 
     private class ValidateTextWatcher implements TextWatcher {
         @Override

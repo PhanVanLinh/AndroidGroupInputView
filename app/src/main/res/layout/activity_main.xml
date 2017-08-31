@@ -10,6 +10,16 @@
     android:padding="10dp"
     >
 
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:lines="3"
+        android:background="#e4e4e4"
+        android:gravity="top"
+        android:maxLines="3"
+        android:visibility="gone"
+        />
+
     <Button
         android:id="@+id/button_test"
         android:layout_width="match_parent"
@@ -62,6 +72,17 @@
         app:giv_inputHint="Input date time"
         app:giv_rule="none_empty"
         app:giv_inputType="date_time"
+        android:visibility="gone"
+        />
+
+
+    <com.toong.androidgroupinputview.GroupInputView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:giv_title="About"
+        app:giv_inputHint="Input date time"
+        app:giv_rule="none_empty"
+        app:giv_input_lines="3"
         />
 
 
